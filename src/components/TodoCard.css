@@ -1,0 +1,39 @@
+.card {
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 0.75rem;
+}
+
+.card>* {
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-buttons>* {
+    min-width: 120px;
+    min-height: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-style: none;
+    background-color: #e415da;
+    border-radius: 1rem;
+}
+
+.assigned-to {
+    background-color: #caec4f;
+    margin: 0;
+    padding: 0;
+}
+
+.task-duration {
+    background-color: darkgrey;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
